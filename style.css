@@ -4,8 +4,9 @@
 #navigation {
   border-radius: 5px;
   position: fixed;
-  width: 50%;
+  width: 75%;
   height: 60px;
   background-color: #d6c706;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
