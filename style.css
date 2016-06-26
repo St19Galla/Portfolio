@@ -10,7 +10,6 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  float: left;
 }
 li {
   float: left;
