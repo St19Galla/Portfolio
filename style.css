@@ -1,5 +1,5 @@
 * {
-  background-color: #444;
+  background-color: #86BBD8;
   margin: 0px;
 }
 ul {
@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #DEB841;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,33 +19,40 @@ li {
 }
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
-  background-color: #333;
+  background-color: #DEB841;
   font-weight: bold;
+  font-size: 20px;
 }
 li a:hover {
-  background-color: #111;
+  background-color: #555;
 }
 .active {
-  background-color: #4caf50;
+  background-color: #DEB841;
 }
 ul li h1 {
-    color: white;
-    background-color: #333;
+    color: black;
+    background-color: #DEB841;
     text-align: center;
     padding-top: 5px;
     padding-left: 7px;
 }
+ul li img {
+    width: 160px;
+    height: 46px;
+    background-color: #DEB841;
+    padding-left: 10px;
+}
 figure img {
-  width: 105%;
+  width: 102%;
 	
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  -webkit-background-size: 102%;
+  -moz-background-size: 102%;
+  -o-background-size: 102%;
+  background-size: 102%;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -56,7 +63,7 @@ figure img {
 }
 .wrap {
   overflow: hidden;
-  width: 105%;
+  width: 102%;
   margin: 0 auto;
   padding-top: 46px;
 }
@@ -70,6 +77,7 @@ figure img {
 }
 .tint:before {
   content: "Welcome to my Portfolio";
+  color: #EAEAEA;
   text-align: center;
   font-size: 100px;
   padding-top: 107px;
@@ -79,19 +87,10 @@ figure img {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,171,231,0.5);
+  background: rgba(92,65,93,0.5);
   transition: all .3s linear;
 }
 .tint:hover:before { 
     background: none;
     content: ""
-}
-.homecontent {
-    width: 95%;
-    height: 1000px;
-    border-radius: 5px;
-    background-color: lightgray;
-    display: block;
-    margin: auto;
-    font-size: 20px;
 }
